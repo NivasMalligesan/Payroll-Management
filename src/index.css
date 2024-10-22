@@ -10,4 +10,8 @@
     .fade-button{
         @apply inline-block py-2 px-6 bg-grey rounded-3xl font-semibold hover:shadow-sm duration-200
     }
+
+    .primary-button{
+        @apply inline-block py-2 px-6 text-light bg-dark rounded-3xl font-semibold hover:shadow-md duration-200 
+    }
 }
