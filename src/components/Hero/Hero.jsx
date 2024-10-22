@@ -14,7 +14,7 @@ const Hero = () => {
                 <div className='space-y-5 text-center md:text-left lg:max-w-[400] me-10'>
                     <h1 className="text-6xl lg:text-6xl font-bold !leading-snug">Global Payroll <br />
                     Platform Made For <br /> <span className='text-blue'> Employees</span></h1>
-                    <p className='!leading-snug font-medium'>Easily automate payroll, taxes, and compliance with a seamless experience.</p>
+                    <p className='!leading-snug font-medium'>Easily payroll management, taxes, and compliance with a seamless experience.</p>
                         <div className='flex justify-center md:justify-start '>
                             <button className='flex items-center gap-2 primary-button group'>
                             Get Started
@@ -25,7 +25,7 @@ const Hero = () => {
             </div>
             {/* hero image*/}
             <div className='flex items-center justify-end'>
-                <img src={hero} alt="" className=' rounded-lg W-[1000px] xl:w-[700px] relative z-10 drop-shadow' />
+                <img src={hero} alt="" className=' rounded-lg W-[600px] xl:w-[700px] relative z-10 shadow-md' />
             </div>
         </div>
     </section>

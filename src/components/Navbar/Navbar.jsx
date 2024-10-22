@@ -5,7 +5,7 @@ import { MdMenu } from "react-icons/md";
 const Navbar = () => {
   return (
     <nav>
-        <div className='container flex items-center justify-between py-4 item'>
+        <div className='container flex items-center justify-between py-4 shadow-sm item'>
             {/*logo Section */}
             <div>
                 <h1 className='text-2xl font-bold '>Payroll</h1>
