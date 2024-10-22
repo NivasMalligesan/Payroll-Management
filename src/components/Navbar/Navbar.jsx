@@ -2,7 +2,10 @@ import React from 'react'
 import { MdMenu } from "react-icons/md";
 
 
+
 const Navbar = () => {
+  const  [showModal, setShowModal] = React.useState(false);
+
   return (
     <nav>
         <div className='container flex items-center justify-between py-4 shadow-sm item'>
@@ -20,6 +23,7 @@ const Navbar = () => {
               <MdMenu className='text-4xl'/>
             </div>
         </div>
+        
     </nav>
   )
 }

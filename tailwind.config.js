@@ -3,6 +3,7 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    './node_modules/preline/preline.js',
   ],
   theme: {
     extend: {
@@ -27,9 +28,14 @@ export default {
             "2xl" : "6rem",
             "3xl" : "8rem"
           }
+        },
+        animation:{
+          "loop-scroll":"loop-scroll 50s linear infinite"
         }
     },
   },
-  plugins: [],
+  plugins: [
+    require('preline/plugin'),
+  ],
 }
 
