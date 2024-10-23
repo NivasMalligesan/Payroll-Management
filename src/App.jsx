@@ -1,19 +1,19 @@
-import React, { useState } from 'react';
-import Hero from './components/Hero/Hero';
-import Features from './components/features/Features';
-import Modal from './components/Modal/Modal';
-import Navbar from './components/Navbar/Navbar';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Landing_page from './Pages/Landing_page';
+import Home from './Pages/Home';
+import Dashboard from './Pages/Dashboard';
 
 const App = () => {
-  const [openModal, setOpenModal] = useState(false); // State to control modal
-
   return (
-    <main className='overflow-x-hidden bg-white'>
-      <Navbar setOpenModal={setOpenModal} /> {/* Pass state setter to Navbar */}
-      <Hero />
-      <Features />
-      {openModal && <Modal setOpenModal={setOpenModal} />} {/* Show Modal */}
-    </main>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Landing_page />} />
+        <Route path="/landing_Page" element={<Landing_page />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
