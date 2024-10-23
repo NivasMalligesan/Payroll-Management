@@ -13,7 +13,7 @@ const Navbar = ({ setOpenModal }) => {
         <div className='hidden lg:block'>
           <button 
             className='secondary-button' 
-            onClick={() => setOpenModal(true)} 
+            onClick={() => setOpenModal(true)} // Open modal on click
           >
             Login
           </button>

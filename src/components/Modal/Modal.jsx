@@ -36,7 +36,7 @@ const Modal = ({ setOpenModal }) => {
         </div>
         <div className='mt-5 w-80 mx-auto flex items-center justify-between'>
           <div className='flex items-center'>
-            <input type='checkbox' className='me-2 w-5 h-4' />
+            <input type='checkbox' className='me-2 w-5 h-4 text-regular' />
             <h1 className='font-medium shadow-sm text-sm'>Remember Me</h1>
           </div>
           <a href='' className='text-sm font-medium'>Forgot Password</a>

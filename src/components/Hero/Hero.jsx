@@ -6,6 +6,7 @@ import hero from "../../assets/hero.png"
 const Hero = () => {
   return (
     <section className="relative overflow-hidden bg-light">
+
         <div className="container grid grid-cols-1 md:grid-cols-7 min-h-[550px] py-10" >
             {/*Info*/}
 
