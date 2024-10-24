@@ -17,7 +17,7 @@ const Navbar = ({ setOpenModal }) => {
           >
             Login
           </button>
-          <button className='fade-button'>Learn More</button>
+          <button className='fade-button bg-grey'>Learn More</button>
         </div>
         {/* Mobile Menu Options */}
         <div className='lg:hidden'>

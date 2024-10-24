@@ -17,6 +17,7 @@ export default {
           secondary_text : "#636364",
           dark : "#0A112F",
           grey : "#D9D9D9",
+          grey_button : "#464646",
           light : "#F7F7F7",
           blue: "#3981F7"
         },
